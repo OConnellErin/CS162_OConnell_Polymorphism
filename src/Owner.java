@@ -18,15 +18,17 @@ public class Owner extends Employee {
     public void giveRaise(Class<?> Employee, double raisePercentage) {
         //enhanced for loop
         for (Employee item:owner) {
-            String name = Employee.getName();
-            if (Employee.getName().equals("Engineer"){
+            Class<? extends Employee> type = item.getClass();
+            if (Employee.getClass().equals("Engineer") {
+
+            }
 
             }
 
 
         }
     }
-}
+
 
 /**I made a giveRaise method that takes in the class and feed it a percentageRaise argument
  The signature looks like this
