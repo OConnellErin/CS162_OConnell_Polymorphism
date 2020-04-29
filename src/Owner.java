@@ -17,21 +17,13 @@ public class Owner extends Employee {
 
     public void giveRaise(Class<?> Employee, double raisePercentage) {
         //enhanced for loop
-        for (Employee item:owner) {
-            Class<? extends Employee> type = item.getClass();
-            if (Employee.getClass().equals("Engineer") {
-
-            }
-
-            }
-
-
-        }
+//        for (Employee item:owner) {
+  //          Class<? extends Employee> type = item.getClass();
+//            if (Employee.getClass().equals("Engineer"){
+                //make a call here that sets the baseSalary the the raisePercentage * the current Salary
+//            }
+//            }
+//        }
     }
+}
 
-
-/**I made a giveRaise method that takes in the class and feed it a percentageRaise argument
- The signature looks like this
- void giveRaise(Class<?> className , double percentRaise)
- from there we used an enhanced for loop of the dataType object (Employee in my case) and had it take items out of the arraylist and assign them to an employee variable.
- then i created an if statement that verifys a match (==) between my employee.getClass() and the className*/
